@@ -1,0 +1,19 @@
+1. Find the books not reviewed by R5.
+
+2. Find people who have been both author and reviewer.
+
+3. For any scoring where the reviewer is the same as the author of the book, return the reviewer name, book title, and score. 
+
+4. For each book, return the title and the 'range of score', that is, the difference between the highest and the lowest scores given to that book. Sort the result by the range-score from highest to lowest, then by book title. 
+
+5. Find the difference between the average score of books written before 1970 and the average score of books after 1970. (Make sure to calculate the average score for each book, then the average of those averages for books before 1970 and then after.)
+
+6. Some authors have written more than one book. For all such authors, return the titles of all books written by them, along with the author name. Order by author name, and then title. Write the query using 'count' and without 'count'.
+
+7. Find the book(s) with the highest average score. Return the book title along with the average score. 
+
+8. For each author, return the author's name together with the title(s) of the book(s) they wrote that received the highest score among all of their books, and the value of that score. Ignore books whose author is NULL. 
+
+9. For all pairs of reviewers such that both reviewers reviewed the same book, return the names of both reviewers. Eliminate duplicates, don't pair reviewers with themselves, and include each pair only once. For each pair, return the names in the pair in alphabetical order. 
+
+10. Find all reviewers who have reviewed more than 2 books.
